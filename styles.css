@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+:root {
+  --primary-color: #c266ff;
+  --gray-color: #6b7280;
+  --lightgray-color: #f3f4f6;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.title-heading {
+  font-family: "Kalam", cursive;
+  margin-left: 2rem;
+  font-size: 4rem;
+}
+hr {
+  margin: 2rem;
+}
+.bold {
+  font-weight: bold;
+}
+/* CONTAINER */
+
+.container {
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
+  padding: 0rem 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* LINKS */
+
+.link {
+  text-decoration: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+  /* border: 1px solid; */
+}
+.link:active,
+.link:visited {
+  /* background-color: black; */
+}
+.link :hover,
+.link:active {
+  background-color: #e0b3ff;
+}
+
+.link-primary:hover,
+.link-primary:active {
+  background-color: #e0b3ff;
+  color: black;
+}
+
+.link-secondary:hover,
+.link-secondary:active {
+  color: white;
+  background-color:  #e0b3ff;
+}
+.link-primary {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 0.5rem;
+}
+.link-secondary {
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+}
+
+.nav .link-active {
+  font-weight: bold;
+}
+
+/* LISTS */
+
+.list {
+  list-style: none;
+}
+
+.list-inline {
+  display: inline;
+  padding: 0 0.5rem;
+}
+
+/* NAVIGATION */
+
+.nav {
+  background-color: var(--primary-color);
+  color: white;
+  /* font-weight: bold; */
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  /* height: 30rem; */
+}
+
+.nav .link {
+  color: white;
+}
+
+.nav .nav-pills {
+  text-align: right;
+}
+
+.nav .link-active {
+  font-weight: bold;
+}
+
+.nav-img {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 50%;
+  transition: border-radius 0.2s;
+}
+.nav-linkedIn {
+  size: 5rem;
+  color: white;
+  margin-top: 1rem;
+}
+.nav-linkedIn:hover {
+  color: #0e76a8;
+}
+.nav-linkedInDiv {
+  text-align: center;
+  font-size: 2rem;
+  /* color: white; */
+  /* background-color: yellow; */
+}
+/* .nav-linkedInDiv:hover {
+  color: #0e76a8;
+} */
+.nav-img:hover {
+  border-radius: 60%;
+}
+.nav-img-div {
+  text-align: center;
+}
+
+.nav-span {
+  /* font-size: 3rem; */
+  /* margin-bottom: 4rem; */
+  text-align: center;
+  /* float: right; */
+}
+/* HEADER */
+
+.hero {
+  padding: 2rem;
+}
+.hero .hero-image {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+.hero .hero-heading {
+  color: var(--gray-color);
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.hero .hero-heading span {
+  color: var(--primary-color);
+}
+
+/* SECTIONS */
+
+.section {
+  padding: 2rem;
+}
+
+.section h1 {
+  text-align: center;
+}
+
+.ow {
+  background-color: var(--lightgray-color);
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+.section .link .link-primary {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+.center h1 {
+  text-align: center;
+}
+
+.list-coffee {
+  margin-top: 2vh;
+  list-style: none;
+}
+
+.title-img {
+  border-radius: 50%;
+}
+
+.link-YT {
+  transition: color 0.2s;
+  font-size: 2rem;
+  color: white;
+}
+.link-YT:hover {
+  color: red;
+}
+.link-Instagram {
+  transition: color 0.2s;
+  font-size: 2rem;
+  color: white;
+}
+.link-Instagram:hover {
+  color: rgb(188, 42, 141);
+}
+.link-Twitter {
+  transition: color 0.2s;
+  font-size: 2rem;
+  color: white;
+}
+.link-Twitter:hover {
+  color: #1da1f2;
+}
+.link-Github {
+  transition: color 0.2s;
+  font-size: 2rem;
+  color: white;
+}
+.link-Github:hover {
+  color: #171515;
+}
+.link-Linkedin {
+  transition: color 0.2s;
+  font-size: 2rem;
+  color: white;
+}
+.link-Linkedin:hover {
+  color: #0e76a8;
+}
+.link-Fb {
+  transition: color 0.2s;
+  font-size: 2rem;
+  color: white;
+}
+.link-Fb:hover {
+  color: rgb(66 103 178);
+}
+/* .link-Gmail {
+  transition: color 0.2s; */
+  /* font-size: 2rem; */
+  /* color: white;
+} */
+/* .link-Gmail:hover {
+  color: yellow;
+} */
+/* #link-Gmail {
+  transition: color 0.2s; */
+  /* font-size: 2rem; */
+  /* color: white;
+} */
+/* #link-Gmail:hover {
+  color: yellow;
+} */
+
+#tooltip {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2rem;
+}
+
+#tooltiptext {
+  visibility: hidden;
+  width: 80px;
+  background-color: #e0b3ff;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+#copyBtn {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 0.5rem;
+  margin-top: 0.8rem;
+  border: 1px solid white;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+#copyBtn:hover {
+  background-color: var(--primary-color);
+  color: black;
+  border-color: var(--primary-color);
+  border-width: 0.2rem;
+}
+
+/* #tooltip:hover #tooltiptext {
+  visibility: visible;
+} */
+
+
