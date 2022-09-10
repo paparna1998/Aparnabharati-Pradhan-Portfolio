@@ -325,7 +325,7 @@ hr {
   border-width: 0.2rem;
 }
 
-@media only screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .list-inline {
     float: left;
     padding: 0 0.7rem;
@@ -335,14 +335,11 @@ hr {
     line-height: 1.5;
     margin-top: 50px;
     line-height: 1.5;
-    padding-right: 25px;
+    padding-right: 45px;
   }
   .nav-img {
     max-width: 150px;
     max-height: 150px;
-  }
-  .nav-img-div{
-    padding-right: 25px;
   }
   .footer .list-inline .link-Linkedin{
     margin-left: 65px;
