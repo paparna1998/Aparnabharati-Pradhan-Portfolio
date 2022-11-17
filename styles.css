@@ -10,7 +10,7 @@ body {
 }
 .title-heading {
   font-family: "Kalam", cursive;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
   font-size: 4rem;
 }
 hr {
@@ -103,7 +103,10 @@ hr {
 }
 
 .nav .nav-pills {
-  text-align: right;
+  /* text-align: right; */
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .nav .link-active {
@@ -149,10 +152,10 @@ hr {
 /* HEADER */
 
 .hero {
-  padding: 2rem;
+  padding: 2em 1em;
 }
 .hero .hero-image {
-  max-width: 350px;
+  max-width:350px;
   display: block;
   margin: auto;
 }
@@ -208,6 +211,7 @@ hr {
 
 .center {
   text-align: center;
+  line-height: 26px;
 }
 .center h1 {
   text-align: center;
@@ -326,23 +330,42 @@ hr {
 }
 
 @media (max-width: 480px) {
-  .list-inline {
+  /* .list-inline {
     float: left;
     padding: 0 0.7rem;
+  } */
+
+  ul.list.nav-pills {
+    justify-content: center;
   }
   .title-heading{
-    font-size: 50px;
+    font-size: 3em;
+    text-align: center;
     line-height: 1.5;
-    margin-top: 50px;
-    line-height: 1.5;
-    padding-right: 45px;
   }
   .nav-img {
     max-width: 150px;
     max-height: 150px;
   }
-  .footer .list-inline .link-Linkedin{
-    margin-left: 55px;
+  .hero .hero-image {
+    max-width: 300px;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+  }
+  ul {
+    margin: 1em auto;
+    padding: 0;
+    display: flex;
+    column-gap: 10px;
+  }
+  .hero .hero-image {
+    max-width: 200px;
+    margin:0 auto;
+  }
+  .hero .hero-heading {
+    margin: 0 auto;
   }
 }
 
